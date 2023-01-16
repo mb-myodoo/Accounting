@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Change name of field in Tax Report-->
+    <record id="l10n_pl.account_tax_report_line_kraj_3_lub_5" model="account.report.line">
+        <field name="name">Podstawa - Dostawa towarów/usług, kraj 5%</field>
+    </record>
+    <record id="l10n_pl.account_tax_report_line_kraj_7_lub_8" model="account.report.line">
+        <field name="name">Podstawa - Dostawa towarów/usług, kraj 8%</field>
+    </record>
+    <record id="l10n_pl.account_tax_report_line_kraj_22_lub_23" model="account.report.line">
+        <field name="name">Podstawa - Dostawa towarów/usług, kraj 23%</field>
+    </record>
+    <record id="l10n_pl.account_tax_report_line_podatek_kraj_3_lub_5" model="account.report.line">
+        <field name="name">Podstawa - Dostawa towarów/usług, kraj 5%</field>
+    </record>
+    <record id="l10n_pl.account_tax_report_line_podatek_kraj_7_lub_8" model="account.report.line">
+        <field name="name">Podstawa - Dostawa towarów/usług, kraj 8%</field>
+    </record>
+    <record id="l10n_pl.account_tax_report_line_podatek_kraj_22_lub_23" model="account.report.line">
+        <field name="name">Podstawa - Dostawa towarów/usług, kraj 23%</field>
+    </record>
+</odoo>

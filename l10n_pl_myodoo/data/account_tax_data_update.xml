@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Remove all non use account tax template -->
+
+    <delete model="account.tax" search="[('name','=','VAT-22%')]"/>
+    <delete model="account.tax" search="[('name','=','VAT-7%')]"/>
+    <delete model="account.tax" search="[('name','=','VAT-3%')]"/>
+    <delete model="account.tax" search="[('name','=','VAT usł-22%')]"/>
+    <delete model="account.tax" search="[('name','=','VAT naliczony-22%')]"/>
+    <delete model="account.tax" search="[('name','=','VAT naliczony-7%')]"/>
+    <delete model="account.tax" search="[('name','=','VAT naliczony-3%')]"/>
+    <delete model="account.tax" search="[('name','=','VAT usł nalicz-22%')]"/> 
+
+   <function model="account.tax" name="update_tax" eval="[[()]]"/>
+
+        
+</odoo>

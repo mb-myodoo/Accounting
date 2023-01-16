@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <data>
+        <!-- Remove non use fiscal position tax-->
+
+        <!-- Sales -->
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vs_kraj_22'))]"/> 
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vs_kraj_7'))]"/> 
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vs_kraj_3'))]"/> 
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vs_kraj_usl_22'))]"/> 
+        
+        <!-- Purchase -->
+
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vz_kraj_22'))]"/> 
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vz_kraj_7'))]"/> 
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vz_kraj_3'))]"/> 
+        <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vz_kraj_usl_22'))]"/>
+    </data>
+</odoo>
