@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Change name of account-->
+    <record id="l10n_pl.1_chart03010100" model="account.account">
+        <field name="name">Udziały lub akcje- jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart03010200" model="account.account">
+        <field name="name">Inne papiery wartościowe- jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart03010300" model="account.account">
+        <field name="name">Udzielone pożyczki -jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart03010400" model="account.account">
+        <field name="name">Inne długoterminowe aktywa finansowe- jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart03020100" model="account.account">
+        <field name="name">Udziały lub akcje- pozostałe jednostki</field>
+    </record>
+    <record id="l10n_pl.1_chart03020200" model="account.account">
+        <field name="name">Inne papiery wartościowe- pozostałe jednostki</field>
+    </record>
+    <record id="l10n_pl.1_chart03020300" model="account.account">
+        <field name="name">Udzielone pożyczki- pozostałe jednostki</field>
+    </record>
+    <record id="l10n_pl.1_chart03020400" model="account.account">
+        <field name="name">Inne długoterminowe aktywa finansowe- pozostałe jednostki</field>
+    </record>
+    <record id="l10n_pl.1_chart03050100" model="account.account">
+        <field name="name">Udziały lub akcje- odpisy aktalizujące</field>
+    </record>
+    <record id="l10n_pl.1_chart03050200" model="account.account">
+        <field name="name">Inne papiery wartościowe- odpisy aktalizujące</field>
+    </record>
+    <record id="l10n_pl.1_chart03050300" model="account.account">
+        <field name="name">Udzielone pożyczki- odpisy aktalizujące</field>
+    </record>
+    <record id="l10n_pl.1_chart03050400" model="account.account">
+        <field name="name">Inne długoterminowe aktywa finansowe- odpisy aktalizujące</field>
+    </record>
+    <record id="l10n_pl.1_chart06010000" model="account.account">
+        <field name="name">Neleżności długoterminowe- jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart06020000" model="account.account">
+        <field name="name">Neleżności długoterminowe- pozostałe jednostki</field>
+    </record>
+    <record id="l10n_pl.1_chart15010100" model="account.account">
+        <field name="name">Udziały lub akcje- jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart15010200" model="account.account">
+        <field name="name">Inne papiery wartościowe- jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart15010300" model="account.account">
+        <field name="name">Udzielone pożyczki -jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart15010400" model="account.account">
+        <field name="name">Inne długoterminowe aktywa finansowe- jednostki powiazane</field>
+    </record>
+    <record id="l10n_pl.1_chart15020100" model="account.account">
+        <field name="name">Udziały lub akcje- pozostałe jednostki</field>
+    </record>
+    <record id="l10n_pl.1_chart15020200" model="account.account">
+        <field name="name">Inne papiery wartościowe- pozostałe jednostki</field>
+    </record>
+    <record id="l10n_pl.1_chart15020400" model="account.account">
+        <field name="name">Inne długoterminowe aktywa finansowe- pozostałe jednostki</field>
+    </record>
+
+    <!--Add account-->
+    <record id="chart40050300" model="account.account">
+        <field name="name">Ubezpieczenia i świadczenia na rzecz pracowników Składki ZUS- pracodawca</field>
+        <field name="code">40.050.300</field>
+        <field name="account_type">expense</field>
+        <field name="reconcile">False</field>
+    </record>
+</odoo>

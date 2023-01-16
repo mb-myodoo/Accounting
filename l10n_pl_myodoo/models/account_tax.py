@@ -25,15 +25,15 @@ VAT_MAP = {
         'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         }      
     },
-    #VAT 8% - BRAK TAG
+    #VAT 8%
     'l10n_pl.1_vs_kraj_8': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Dostawa towarów/usług, kraj, 7% lub 8%'],
-        'tax': ['+Podatek - Dostawa towarów/usług, kraj, 7% lub 8%']
+        'base': ['N_S_KR8', '+Podstawa - Dostawa towarów/usług, kraj, 7% lub 8%'],
+        'tax': ['P_S_KR8','+Podatek - Dostawa towarów/usług, kraj, 7% lub 8%']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Dostawa towarów/usług, kraj, 7% lub 8%'],
-        'tax': ['-Podatek - Dostawa towarów/usług, kraj, 7% lub 8%']
+        'base': ['N_S_KR8', '-Podstawa - Dostawa towarów/usług, kraj, 7% lub 8%'],
+        'tax': ['P_S_KR8', '-Podatek - Dostawa towarów/usług, kraj, 7% lub 8%']
         }      
     },
     'l10n_pl.1_vz_kraj_8': { 
@@ -46,15 +46,15 @@ VAT_MAP = {
         'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         }       
     },
-    #VAT 5% - BRAK TAG
+    #VAT 5%
     'l10n_pl.1_vs_kraj_5': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Dostawa towarów/usług, kraj, 3% lub 5%'],
-        'tax': ['+Podatek - Dostawa towarów/usług, kraj, 3% lub 5%']
+        'base': ['N_S_KR5', '+Podstawa - Dostawa towarów/usług, kraj, 3% lub 5%'],
+        'tax': ['P_S_KR5', '+Podatek - Dostawa towarów/usług, kraj, 3% lub 5%']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Dostawa towarów/usług, kraj, 3% lub 5%'],
-        'tax': ['-Podatek - Dostawa towarów/usług, kraj, 3% lub 5%']
+        'base': ['N_S_KR5', '-Podstawa - Dostawa towarów/usług, kraj, 3% lub 5%'],
+        'tax': ['P_S_KR5', '-Podatek - Dostawa towarów/usług, kraj, 3% lub 5%']
         }      
     },
     'l10n_pl.1_vz_kraj_5': { 
@@ -67,14 +67,14 @@ VAT_MAP = {
         'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         }      
     },
-    #VAT 0% - BRAK TAG
+    #VAT 0%
     'l10n_pl.1_vs_kraj_0': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Dostawa towarów/usług, kraj, 0%'],
+        'base': ['N_S_KR0', '+Podstawa - Dostawa towarów/usług, kraj, 0%'],
         'tax': []
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Dostawa towarów/usług, kraj, 0%'],
+        'base': ['N_S_KR0', '-Podstawa - Dostawa towarów/usług, kraj, 0%'],
         'tax': []
         }      
     },
@@ -112,79 +112,79 @@ VAT_MAP = {
     },
     'l10n_pl.1_vz_kraj_zw': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['+Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['-Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         }       
     },
-    #VAT SERVICE 23% - BRAK TAG
+    #VAT SERVICE 23% 
     'l10n_pl.1_vs_kraj_usl_23': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Dostawa towarów/usług, kraj, 22% lub 23%'],
-        'tax': ['+Podatek - Dostawa towarów/usług, kraj, 22% lub 23%']
+        'base': ['N_S_KR23', '+Podstawa - Dostawa towarów/usług, kraj, 22% lub 23%'],
+        'tax': ['P_S_KR23', '+Podatek - Dostawa towarów/usług, kraj, 22% lub 23%']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Dostawa towarów/usług, kraj, 22% lub 23%'],
-        'tax': ['-Podatek - Dostawa towarów/usług, kraj, 22% lub 23%']
+        'base': ['N_S_KR23', '-Podstawa - Dostawa towarów/usług, kraj, 22% lub 23%'],
+        'tax': ['P_S_KR23', '-Podatek - Dostawa towarów/usług, kraj, 22% lub 23%']
         }      
     },
     'l10n_pl.1_vz_kraj_usl_23': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['+Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['-Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         }          
     },
     
-    #VEHICLE LEASING - BRAK TAG
+    #VEHICLE LEASING
     'l10n_pl.1_vp_leas_sale': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['+Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['-Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         }          
     },
     'l10n_pl.1_vp_leas_purchase': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['+Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Nabycie towarów i usług pozostałych'],
-        'tax': ['-Podatek - Nabycie towarów i usług pozostałych']
+        'base': ['N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         }          
     },
     
-    #STEEL TRADE - BRAK TAG
+    #STEEL TRADE
     'l10n_pl.1_vs_stal': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Dostawa towarów, podatnik nabywca'],
+        'base': ['N_S_DT-pod-nab', '+Podstawa - Dostawa towarów, podatnik nabywca'],
         'tax': []
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Dostawa towarów, podatnik nabywca'],
+        'base': ['N_S_DT-pod-nab', '-Podstawa - Dostawa towarów, podatnik nabywca'],
         'tax': []
         }          
     },
     'l10n_pl.1_vz_stal': { 
         'invoice_repartition_line_ids' : {
-        'base': ['+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - Dostawa towarów, podatnik nabywca'],
-        'tax': ['+Podatek - Nabycie towarów i usług pozostałych'],
-        'tax': ['+Podatek - Dostawa towarów, podatnik nabywca']
+        'base': ['N_Z_POZ', 'N_S_DT-pod-nab', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - Dostawa towarów, podatnik nabywca'],
+        'tax': ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_S_DT-pod-nab', '+Podatek - Dostawa towarów, podatnik nabywca']
         },
         'refund_repartition_line_ids' : {
-        'base': ['-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - Dostawa towarów, podatnik nabywca'],
-        'tax': ['-Podatek - Nabycie towarów i usług pozostałych'],
-        'tax': ['-Podatek - Dostawa towarów, podatnik nabywca']
+        'base': ['N_Z_POZ', 'N_S_DT-pod-nab', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - Dostawa towarów, podatnik nabywca'],
+        'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych'],
+        'tax': ['P_S_DT-pod-nab', '-Podatek - Dostawa towarów, podatnik nabywca']
         }          
     },
     #UE
@@ -270,18 +270,22 @@ VAT_MAP = {
         'tax': []
         }      
     },
-    'l10n_pl.1_vz_impu': { 
-        'invoice_repartition_line_ids' : {
-        'base': ['N_S_IUpUE', 'N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - Import usług'],
-        'tax': ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych'],
-        'tax': ['P_S_IUpUE', '+Podatek - Import usług']
-        },
-        'refund_repartition_line_ids' : {
-        'base': ['N_S_IUpUE', 'N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - Import usług'],
-        'tax': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych'],
-        'tax': ['P_S_IUpUE', '-Podatek - Import usług']
-        },
-    }}
+    # 'l10n_pl.1_vz_impu': { 
+    #     'invoice_repartition_line_ids' : {
+    #     'base': ['N_S_IUpUE', 'N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - Import usług'],
+    #     'tax': ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych'],
+    #     'tax': ['P_S_IUpUE', '+Podatek - Import usług']
+    #     },
+    #     'refund_repartition_line_ids' : {
+    #     'base': {
+    #         'factor_percent': ['N_S_IUpUE', 'N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - Import usług']},
+    #     'tax': {
+    #         'factor_percent': ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']},
+    #     'tax': {
+    #         'factor_precent': ['P_S_IUpUE', '-Podatek - Import usług']}
+    #     },
+    # }}
+}
 
     
 class AccountTax(models.Model):

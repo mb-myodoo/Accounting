@@ -14,7 +14,8 @@
         'account',
         'l10n_pl',
     ],
-    'data': [           
+    'data': [    
+        'data/account_account_update.xml',   
         'data/accounting_tags.xml',
         'data/account_tax_report_data_update.xml',
         'data/account_fiscal_position_data_update.xml',
