@@ -2,12 +2,12 @@
 
 {
     'name' : 'Overlay for Poland - Accounting',
-    'version' : '1.0',
+    'version' : '1.1',
     'author': 'myOdoo.pl',
     'website': 'https://myodoo.pl',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-    This is the overaly module to manage the accounting chart and taxes for Poland in Odoo.
+    This is the overaly module to manage the accounting chart and taxes for Poland in Odoo. 
 
     """,
     'depends' : [
