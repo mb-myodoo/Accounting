@@ -15,5 +15,10 @@
         <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vz_kraj_7'))]"/> 
         <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vz_kraj_3'))]"/> 
         <delete model="account.fiscal.position.tax" search="[('tax_src_id','=',ref('l10n_pl.vz_kraj_usl_22'))]"/>
+
+        <record id="l10n_pl.1_fiscal_position_template_4" model="account.fiscal.position">
+            <field name="name">Wspólnota Osoba Fizyczna</field>
+        </record>
+
     </data>
 </odoo>

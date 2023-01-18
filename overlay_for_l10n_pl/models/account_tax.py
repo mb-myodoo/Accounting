@@ -141,7 +141,7 @@ VAT_MAP = {
         100: ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych']
         },          
     },
-    
+   
     #VEHICLE LEASING
     'l10n_pl.1_vp_leas_sale': { 
         'invoice_repartition_line_ids' : {
@@ -191,6 +191,7 @@ VAT_MAP = {
         -100: ['P_S_DT-pod-nab', '-Podatek - Dostawa towarów, podatnik nabywca']
         },          
     },
+    
     #UE
     #UE GOODS
     'l10n_pl.1_vs_unia': { 
@@ -207,37 +208,38 @@ VAT_MAP = {
         'invoice_repartition_line_ids' : {
         'base': ['N_S_WNT', 'N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - Wewn-wspól. nabycie towarów'],
         100: ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_WNT', '+Podatek - Wewn-wspól. nabycie towarów']
+        -100: ['P_S_WNT', '-Podatek - Wewn-wspól. nabycie towarów']
         },
         'refund_repartition_line_ids' : {
         'base': ['N_S_WNT', 'N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - Wewn-wspól. nabycie towarów'],
         100: ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_WNT', '-Podatek - Wewn-wspól. nabycie towarów']
+        -100: ['P_S_WNT', '+Podatek - Wewn-wspól. nabycie towarów']
         },     
     }, 
     #UE SERVICES
     'l10n_pl.1_vs_dostu': { 
         'invoice_repartition_line_ids' : {
-        'base': ['N_S_D-UE', '+Podstawa - W tym usługi art 100.1.4'],
+        'base': ['N_S_D-UE', '+Podstawa - W tym usługi art 100.1.4', '+Podstawa - Dostawa towarów/usług, poza kraj'],
         100: []
         },
         'refund_repartition_line_ids' : {
-        'base': ['N_S_D-UE', '-Podstawa - W tym usługi art 100.1.4'],
+        'base': ['N_S_D-UE', '-Podstawa - W tym usługi art 100.1.4', '-Podstawa - Dostawa towarów/usług, poza kraj'],
         100: []
         },     
     }, 
     'l10n_pl.1_vz_nabu': { 
         'invoice_repartition_line_ids' : {
-        'base': ['N_S_IUzUE', 'N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - W tym nabycie wg art 28b'],
+        'base': ['N_S_IUzUE', 'N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - W tym nabycie wg art 28b', '+Podstawa - Import usług'],
         100: ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_IUzUE', '+Podatek - W tym nabycie wg art 28b']
+        -100: ['P_S_IUzUE', '-Podatek - W tym nabycie wg art 28b', '-Podatek - Import usług']
         },
         'refund_repartition_line_ids' : {
-        'base': ['N_S_IUzUE', 'N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - W tym nabycie wg art 28b'],
+        'base': ['N_S_IUzUE', 'N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - W tym nabycie wg art 28b', '-Podstawa - Import usług'],
         100: ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_IUzUE', '-Podatek - W tym nabycie wg art 28b']
+        -100: ['P_S_IUzUE', '+Podatek - W tym nabycie wg art 28b', '+Podatek - Import usług']
         },     
     }, 
+    
     #EXPORT
     #EX GOODS
     'l10n_pl.1_vs_eksp_tow': { 
@@ -254,12 +256,12 @@ VAT_MAP = {
         'invoice_repartition_line_ids' : {
         'base': ['N_S_IUpUE', 'N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - Import towarów art. 33a'],
         100: ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_IUpUE', '+Podatek - Import towarów art. 33a']
+        -100: ['P_S_IUpUE', '-Podatek - Import towarów art. 33a']
         },
         'refund_repartition_line_ids' : {
         'base': ['N_S_IUpUE', 'N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - Import towarów art. 33a'],
         100: ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_IUpUE', '-Podatek - Import towarów art. 33a']
+        -100: ['P_S_IUpUE', '+Podatek - Import towarów art. 33a']
         },
     },
     #EX SERVICES
@@ -277,12 +279,12 @@ VAT_MAP = {
         'invoice_repartition_line_ids' : {
         'base': ['N_S_IUpUE', 'N_Z_POZ', '+Podstawa - Nabycie towarów i usług pozostałych', '+Podstawa - Import usług'],
         100: ['P_Z_POZ', '+Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_IUpUE', '+Podatek - Import usług']
+        -100: ['P_S_IUpUE', '-Podatek - Import usług']
         },
         'refund_repartition_line_ids' : {
         'base': ['N_S_IUpUE', 'N_Z_POZ', '-Podstawa - Nabycie towarów i usług pozostałych', '-Podstawa - Import usług'],
         100: ['P_Z_POZ', '-Podatek - Nabycie towarów i usług pozostałych'],
-        -100: ['P_S_IUpUE', '-Podatek - Import usług']
+        -100: ['P_S_IUpUE', '+Podatek - Import usług']
         },
     }}
 
